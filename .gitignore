@@ -1,0 +1,17 @@
+# Jupyter and Python temp files
+__pycache__/
+*.ipynb_checkpoints
+
+# Environment and config
+.env
+.env.*
+config.json
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Python build artifacts
+*.pyc
+*.pyo
+*.pyd
