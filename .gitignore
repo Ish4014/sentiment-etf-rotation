@@ -1,17 +1,61 @@
-# Jupyter and Python temp files
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.ipynb_checkpoints
+*.py[cod]
+*$py.class
 
-# Environment and config
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Environment files
 .env
 .env.*
+.venv/
+env/
+venv/
+ENV/
+
+# Configuration & Secrets
 config.json
 
-# OS junk files
+# Operating System files
 .DS_Store
 Thumbs.db
 
-# Python build artifacts
-*.pyc
-*.pyo
-*.pyd
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test/coverage/cache
+.tox/
+.nox/
+.coverage*
+.cache
+.pytest_cache/
+.hypothesis/
+
+# VS Code / IDE files
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+
+# Distribution/build
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+*.spec
+
+# Pyre / mypy / pytype / Ruff
+.pyre/
+.mypy_cache/
+.pytype/
+.ruff_cache/
+
+# Site
+/site
+
+# Cursor AI Editor
+.cursorignore
+.cursorindexingignore
